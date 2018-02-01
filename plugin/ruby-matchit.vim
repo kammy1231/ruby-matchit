@@ -81,5 +81,3 @@ function! s:Ruby_Matchit()
     endif
 
 endfunction
-
-autocmd filetype ruby nnoremap <buffer> % :call <SID>Ruby_Matchit()<CR>
